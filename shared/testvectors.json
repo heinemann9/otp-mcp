@@ -1,0 +1,55 @@
+{
+ "rfc6238": [
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ","algorithm":"SHA1","time":59,"digits":8,"code":"94287082"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA====","algorithm":"SHA256","time":59,"digits":8,"code":"46119246"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA=","algorithm":"SHA512","time":59,"digits":8,"code":"90693936"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ","algorithm":"SHA1","time":1111111109,"digits":8,"code":"07081804"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA====","algorithm":"SHA256","time":1111111109,"digits":8,"code":"68084774"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA=","algorithm":"SHA512","time":1111111109,"digits":8,"code":"25091201"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ","algorithm":"SHA1","time":1111111111,"digits":8,"code":"14050471"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA====","algorithm":"SHA256","time":1111111111,"digits":8,"code":"67062674"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA=","algorithm":"SHA512","time":1111111111,"digits":8,"code":"99943326"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ","algorithm":"SHA1","time":1234567890,"digits":8,"code":"89005924"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA====","algorithm":"SHA256","time":1234567890,"digits":8,"code":"91819424"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA=","algorithm":"SHA512","time":1234567890,"digits":8,"code":"93441116"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ","algorithm":"SHA1","time":2000000000,"digits":8,"code":"69279037"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA====","algorithm":"SHA256","time":2000000000,"digits":8,"code":"90698825"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA=","algorithm":"SHA512","time":2000000000,"digits":8,"code":"38618901"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ","algorithm":"SHA1","time":20000000000,"digits":8,"code":"65353130"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZA====","algorithm":"SHA256","time":20000000000,"digits":8,"code":"77737706"},
+  {"secret":"GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQGEZDGNA=","algorithm":"SHA512","time":20000000000,"digits":8,"code":"47863826"}
+ ],
+ "migration": {
+  "uri": "otpauth-migration://offline?data=CkEKFG90cC1tY3AtZmFrZS1zZWVkLUExEhFhbGljZUBleGFtcGxlLmNvbRoHRXhhbXBsZSABKAEwAkIFdWlkLWFIBwpACiBvdHAtbWNwLWZha2Utc2VlZC1CMi1zaGEyNTYtMzJieRIDYm9iGghFeGFtcGxlMiACKAMwAkIFdWlkLWJIBwoxChRvdHAtbWNwLWZha2UtaG90cC1DMxIFY2Fyb2waCEV4YW1wbGUzIAEoATABOAVIBwouChRvdHAtbWNwLWZha2UtbWQ1LS1ENBIEZGF2ZRoIRXhhbXBsZTQgBCgBMAJIBxACGAEgACi5YA%3D%3D",
+  "time": 1111111111,
+  "entries": [
+   {"issuer":"Example","name":"alice@example.com","algorithm":"SHA1","digits":6,"period":30,"uniqueID":"uid-a","secret":"N52HALLNMNYC2ZTBNNSS243FMVSC2QJR","code":"080512"},
+   {"issuer":"Example2","name":"bob","algorithm":"SHA256","digits":7,"period":30,"uniqueID":"uid-b","secret":"N52HALLNMNYC2ZTBNNSS243FMVSC2QRSFVZWQYJSGU3C2MZSMJ4Q====","code":"3301730"}
+  ],
+  "skipped": [
+   {"issuer":"Example3","name":"carol","reason":"HOTP"},
+   {"issuer":"Example4","name":"dave","reason":"MD5"}
+  ]
+ },
+ "migrationBad": {
+  "version3": "otpauth-migration://offline?data=CkEKFG90cC1tY3AtZmFrZS1zZWVkLUExEhFhbGljZUBleGFtcGxlLmNvbRoHRXhhbXBsZSABKAEwAkIFdWlkLWFIBwpACiBvdHAtbWNwLWZha2Utc2VlZC1CMi1zaGEyNTYtMzJieRIDYm9iGghFeGFtcGxlMiACKAMwAkIFdWlkLWJIBwoxChRvdHAtbWNwLWZha2UtaG90cC1DMxIFY2Fyb2waCEV4YW1wbGUzIAEoATABOAVIBwouChRvdHAtbWNwLWZha2UtbWQ1LS1ENBIEZGF2ZRoIRXhhbXBsZTQgBCgBMAJIBxADGAEgACi5YA%3D%3D",
+  "batchIndexOutOfRange": "otpauth-migration://offline?data=CkEKFG90cC1tY3AtZmFrZS1zZWVkLUExEhFhbGljZUBleGFtcGxlLmNvbRoHRXhhbXBsZSABKAEwAkIFdWlkLWFIBwpACiBvdHAtbWNwLWZha2Utc2VlZC1CMi1zaGEyNTYtMzJieRIDYm9iGghFeGFtcGxlMiACKAMwAkIFdWlkLWJIBwoxChRvdHAtbWNwLWZha2UtaG90cC1DMxIFY2Fyb2waCEV4YW1wbGUzIAEoATABOAVIBwouChRvdHAtbWNwLWZha2UtbWQ1LS1ENBIEZGF2ZRoIRXhhbXBsZTQgBCgBMAJIBxACGAEgASi5YA%3D%3D"
+ },
+ "otpauth": {
+  "time": 1111111111,
+  "valid": [
+   {"uri":"otpauth://totp/Example:alice%40example.com?secret=N52HALLNMNYC2ZTBNNSS243FMVSC2QJR&issuer=Example&algorithm=SHA1&digits=6&period=30","issuer":"Example","name":"alice@example.com","algorithm":"SHA1","digits":6,"period":30,"code":"080512"},
+   {"uri":"otpauth://totp/bob?secret=n52hallnmnyc2ztbnnss243fmvsc2qrsfvzwqyjsgu3c2mzsmj4q====&issuer=Example2&algorithm=SHA256&digits=8&period=60","issuer":"Example2","name":"bob","algorithm":"SHA256","digits":8,"period":60,"code":"32615920"}
+  ],
+  "invalid": [
+   "otpauth://hotp/Example:carol?secret=N52HALLNMNYC2ZTBNNSS243FMVSC2QJR&counter=5",
+   "otpauth://totp/Example:dave?secret=N52HALLNMNYC2ZTBNNSS243FMVSC2QJR&algorithm=MD5",
+   "otpauth://totp/Example:erin?secret=N52HALLNMNYC2ZTBNNSS243FMVSC2QJR&digits=9",
+   "otpauth://totp/Example:p0?secret=N52HALLNMNYC2ZTBNNSS243FMVSC2QJR&period=0",
+   "otpauth://totp/Example:pneg?secret=N52HALLNMNYC2ZTBNNSS243FMVSC2QJR&period=-5",
+   "otpauth://totp/Example:pabc?secret=N52HALLNMNYC2ZTBNNSS243FMVSC2QJR&period=abc",
+   "otpauth://totp/Example:nosecret?issuer=Example",
+   "otpauth://totp/Example:emptysecret?secret=&issuer=Example"
+  ]
+ }
+}

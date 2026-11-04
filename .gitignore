@@ -1,0 +1,4 @@
+.build/
+.test-home/
+.canary/
+.DS_Store
